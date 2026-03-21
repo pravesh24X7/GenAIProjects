@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "context",
+        "question"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You're a helpful assistant. Answer user's question based on given context.\n\n    {context}.\n    \n\n\n    {question}.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
