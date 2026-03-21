@@ -4,7 +4,7 @@ This repository contains a collection of projects built while learning and exper
 
 ## 📌 Projects Included
 
-### 1. AI-Powered HR Outreach Automation Agent
+### 1. AI-Powered HR Automation Agent
 
 An automation system that generates and sends personalized cold emails to HR professionals using LLMs.
 
