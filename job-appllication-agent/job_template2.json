@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "company_name",
+        "hr_name"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Write a professional job application email for the position of AI Engineer.\n    Company Name: {company_name}\n\n    Candidate Background:\n    I am a developer with strong experience in Artificial Intelligence, Machine Learning, and NLP systems.\n\n    Technical Skills:\n\n    Languages:\n    Python, SQL, Java, C/C++\n\n    Machine Learning & Deep Learning:\n    Supervised Learning, Unsupervised Learning, Feature Engineering, CNN, Natural Language Processing, Transformers, Retrieval Augmented Generation (RAG), Model Fine-tuning\n\n    Libraries & Frameworks:\n    PyTorch, TensorFlow, HuggingFace Transformers, Scikit-learn, NumPy, Pandas, Seaborn\n\n    Data Science & Mathematics:\n    Statistics, Probability, Linear Algebra\n\n    Tools:\n    Git, PyCharm, JupyterLab, Google Colab, VS Code\n\n    Research Work:\n    I have authored a research paper titled:\n    \"Forensic Text Completion using Transformer-based Models: Fine-tuning and Retrieval Augmented Approach.\"\n\n    The paper has been accepted at:\n    International Conference on Advances in Distributed Computing and Machine Learning (ICADCML 2026)\n\n    The proceedings will be published in Springer LNNS.\n\n    Instructions:\n    - Write a concise and professional job application email.\n    - Use simple, natural student-level English.\n    - Avoid fancy vocabulary, overly formal language, or marketing-style phrases.\n    - The email should sound genuine and human-written.\n    - Express interest in the AI Engineer role at the company.\n    - Briefly highlight relevant skills in AI, NLP, Transformers, and RAG systems.\n    - Mention the research paper briefly.\n    - Mention that my resume is attached for review.\n    - Mention that I am available for an interview during the upcoming weekend, such as Friday or Saturday, at a time convenient for them.\n    - Keep the email around 80-100 words.\n    - Use Applicant name as `Pravesh Srivastava` and HR manager name as `{hr_name}`.\n\n    Greeting Rules:\n    - Start the email with: Dear {hr_name},\n    - Do NOT add titles like Mr., Ms., Mrs., Dr.\n    - Use only the exact name provided.\n\n    Signature:\n    - End with:\n    Best regards,\n    Pravesh Srivastava\n\n    IMPORTANT OUTPUT RULES:\n    - Return ONLY valid JSON with exactly these keys: \"subject\" and \"body\".\n    - Do NOT include any extra text, markdown, or explanations.\n    - Use double quotes for all keys and string values.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
