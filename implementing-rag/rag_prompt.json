@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "content",
+        "question"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Answer the below given question based on the given context.\n\n    {content}.\n    \n\n\n    {question}\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
