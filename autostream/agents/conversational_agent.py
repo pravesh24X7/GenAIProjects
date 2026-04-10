@@ -15,7 +15,7 @@ from langchain_core.output_parsers import PydanticOutputParser, StrOutputParser
 from pydantic import BaseModel, Field
 from rag.retriever import get_retriever
 from utils.format import format_docs
-from tools.capture import mock_lead_capture
+from api.capture import mock_lead_capture
 from langchain_classic import hub
 from typing import Literal
 from dotenv import load_dotenv
@@ -122,12 +122,12 @@ while True:
             lead_state["name"] = user_msg
 
         if all(lead_state.values()):
-            mock_lead_capture(
+            api_call_response = mock_lead_capture(
                 lead_state["name"],
                 lead_state["email"],
                 lead_state["platform"]
             )
-            response_text = "Thanks! Our team will contact you soon."
+            response_text = api_call_response + "\n\nThanks! Our team will contact you soon."
         else:
             response_text = high_intent_chain.invoke({
                 "query": user_msg,
