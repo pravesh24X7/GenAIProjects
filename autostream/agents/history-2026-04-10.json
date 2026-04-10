@@ -1,0 +1,102 @@
+[
+  {
+    "role": "human",
+    "content": "Hii"
+  },
+  {
+    "role": "ai",
+    "content": "greeting"
+  },
+  {
+    "role": "human",
+    "content": "I love your product so much."
+  },
+  {
+    "role": "ai",
+    "content": "high_intent"
+  },
+  {
+    "role": "human",
+    "content": "How much it cost?"
+  },
+  {
+    "role": "ai",
+    "content": "enquiry"
+  }
+][
+  {
+    "role": "human",
+    "content": "hello"
+  },
+  {
+    "role": "ai",
+    "content": "Hi! How are you today?"
+  },
+  {
+    "role": "human",
+    "content": "what?"
+  },
+  {
+    "role": "ai",
+    "content": "It seems like you haven't asked a question yet. Please go ahead and ask your query about the given context, and I'll be happy to help!"
+  }
+][
+  {
+    "role": "human",
+    "content": "Hello, who are you?"
+  },
+  {
+    "role": "ai",
+    "content": "I'm so glad you asked! I'm an AI assistant, here to help and chat with you. My name is Meta AI, but you can call me friend! How can I make your day a little brighter?"
+  }
+][
+  {
+    "role": "human",
+    "content": "Hello, who are you?"
+  },
+  {
+    "role": "ai",
+    "content": "I'm so happy to meet you! I'm an AI assistant, here to help and chat with you. My name is LLaMA, and I'm here to make your day a little brighter. How can I assist you today?"
+  }
+][
+  {
+    "role": "human",
+    "content": "Hello, who are you?"
+  },
+  {
+    "role": "ai",
+    "content": "I'm Llama, your friendly AI assistant. How can I help you today?"
+  },
+  {
+    "role": "human",
+    "content": "what's the price of the product?"
+  },
+  {
+    "role": "ai",
+    "content": "The prices are:\n\n* Basic plan: $29 per month (supports 720p resolution, 10 videos per month)\n* Pro plan: $79 per month (unlimited video up to 4K resolution, AI captions, and 24x7 support)"
+  },
+  {
+    "role": "human",
+    "content": "What kind of support we can expect from the product?"
+  },
+  {
+    "role": "ai",
+    "content": "For the Basic plan, details about support aren't specified. \n\nFor the Pro plan, you can expect 24x7 support."
+  },
+  {
+    "role": "human",
+    "content": "what's the replacement policy?"
+  },
+  {
+    "role": "ai",
+    "content": "No refund will be provided after 7 days."
+  },
+  {
+    "role": "human",
+    "content": "I love your product so much"
+  },
+  {
+    "role": "ai",
+    "content": "That's wonderful to hear! We're glad you're enjoying our product.\n\nTo better assist you and provide personalized support, could you please provide the following details:\n\n1. Your name\n2. Your email address\n3. The creator platform you're using (e.g. YouTube, TikTok, etc.)\n\nThis will help us to:\n\n* Address you by name\n* Send you relevant updates and information\n* Understand your specific needs and provide tailored support\n\nThank you!"
+  }
+]
