@@ -3,7 +3,7 @@ import uuid
 import streamlit as st
 
 from langchain_core.messages import HumanMessage, AIMessage
-from chatbot_backend import workflow
+from new_backend import workflow, retrieve_all_threads
 
 # st.session_state => dict, values persist until and unless you refresh the page manually, therefore it solves the problem of persistence.
 
@@ -47,8 +47,9 @@ if 'thread_id' not in st.session_state:
     st.session_state['thread_id'] = generate_thread_id()
 
 if 'chat_threads' not in st.session_state:
-    st.session_state['chat_threads'] = []
-    add_thread(st.session_state['thread_id'])
+    st.session_state['chat_threads'] = retrieve_all_threads()
+
+add_thread(st.session_state['thread_id'])
 
 
 # sidebar
